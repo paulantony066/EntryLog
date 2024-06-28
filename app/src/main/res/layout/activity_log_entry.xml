@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F0F0"
+    android:orientation="vertical"
+    android:padding="50px"
+    android:gravity="center"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name "
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="18dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:hint="Enter name"
+        android:id="@+id/name"
+        android:textColorHint="#7C7F80"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Admission no"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="18dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:hint="Admn number"
+        android:inputType="number"
+        android:textColorHint="#7C7F80"
+        android:id="@+id/admn"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="System no"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="18dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:hint="enter system no"
+        android:textColorHint="#7C7F80"
+        android:id="@+id/system"
+        android:inputType="number"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Depeartment"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="18dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:hint="Enter department name"
+        android:id="@+id/dept"
+        android:textColorHint="#7C7F80"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:text="ADD"
+        android:textColor="#ffffff"
+        android:layout_margin="20px"
+        android:id="@+id/add"
+
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:text="LOGOUT"
+        android:textColor="#ffffff"
+        android:layout_margin="20px"
+        android:id="@+id/log"
+
+        />
+</LinearLayout>
